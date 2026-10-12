@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "data_version": "4496973eac75050d",
+  "files": {
+    "app.js": "dbd0cd132b677c92d2b758fdaad64694a976c730501dbb86f2775426a82bcdb8",
+    "index.html": "3b21f5e75f1e1dae9aa45eb82b20465884cf0f68406debcc724083e1a9dc685c",
+    "localities.csv": "b4f8920d5f4427f3464687907453d7c76b9f9456ed087e0611238ee207694c2d",
+    "progress.json": "9adc6b8403c21994d5836f09dae20b928f10f0b100c7ce1dcccaa94b8389d687",
+    "runs.csv": "3a82f189d8fe980366285490c5ab4a56736c7ef9953a8e859b5f9e7efc4dd25b",
+    "sample_sets.csv": "10bd49c2f12866972c41b51766d3f718b99d7d01ec917de249d3b5eb026d7012",
+    "style.css": "af6547839fe3e6a19c4f9f1f8772e0966f172ceed925e7f5b4a40d254bd8172e"
+  }
+}

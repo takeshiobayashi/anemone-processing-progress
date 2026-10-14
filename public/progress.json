@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "data_version": "4496973eac75050d",
-  "generated_at": "2026-10-12T07:27:00.435Z",
+  "data_version": "2960695a6f9512a6",
+  "generated_at": "2026-10-14T01:03:21.509Z",
   "data_cutoff": "2026-10-10T22:55:03.000Z",
   "automation_state": "offline_candidate",
-  "code_version": "3b82e4f85d75a035",
+  "code_version": "ebb2bae70d1e4fd8",
   "sheet_modified_at": "2026-10-04T09:52:04.381Z",
   "sheet_acquired_at": "2026-10-12T05:24:40.924Z",
   "runs": [
@@ -1545,7 +1545,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "AKS厚岸臨海実験所",
       "group_codes": [
         "AKS"
       ],
@@ -1567,7 +1566,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "AKU-樋合",
       "group_codes": [
         "AKU"
       ],
@@ -1589,7 +1587,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "AMS-浅虫",
       "group_codes": [
         "AMS"
       ],
@@ -1611,7 +1608,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "ASU芦生",
       "group_codes": [
         "ASU"
       ],
@@ -1633,7 +1629,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "HUA千歳川（ふ化場上）",
       "group_codes": [
         "HUA"
       ],
@@ -1655,7 +1650,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "HUA千歳川（水族館橋）",
       "group_codes": [
         "HUA"
       ],
@@ -1677,7 +1671,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "HUA千歳川（長都大橋）",
       "group_codes": [
         "HUA"
       ],
@@ -1699,7 +1692,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "HUF-むつ関根",
       "group_codes": [
         "HUF"
       ],
@@ -1721,7 +1713,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "HUF-七重浜",
       "group_codes": [
         "HUF"
       ],
@@ -1743,7 +1734,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "HUF-紋別",
       "group_codes": [
         "HUF"
       ],
@@ -1765,7 +1755,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "HUF-網走鱒浦",
       "group_codes": [
         "HUF"
       ],
@@ -1787,7 +1776,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "KUE-IP-E今津",
       "group_codes": [
         "KUE"
       ],
@@ -1809,7 +1797,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "KUE-IP-E芥屋",
       "group_codes": [
         "KUE"
       ],
@@ -1831,7 +1818,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "KUE-IP-W今津",
       "group_codes": [
         "KUE"
       ],
@@ -1853,7 +1839,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "KUE-IP-W芥屋",
       "group_codes": [
         "KUE"
       ],
@@ -1875,7 +1860,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "KUM-長浜",
       "group_codes": [
         "KUM"
       ],
@@ -1897,7 +1881,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "KUM-音海潜水",
       "group_codes": [
         "KUM"
       ],
@@ -1919,7 +1902,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "KUM-音海表層",
       "group_codes": [
         "KUM"
       ],
@@ -1941,7 +1923,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "NML-能登臨海実験所",
       "group_codes": [
         "NML"
       ],
@@ -1963,7 +1944,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "RUI-西表",
       "group_codes": [
         "RUI"
       ],
@@ -1985,7 +1965,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "SBC-標茶",
       "group_codes": [
         "SBC"
       ],
@@ -2007,7 +1986,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "SMD-下田",
       "group_codes": [
         "SMD"
       ],
@@ -2029,7 +2007,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "SMD-式根島",
       "group_codes": [
         "SMD"
       ],
@@ -2051,7 +2028,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "SMU恵曇港",
       "group_codes": [
         "SMU"
       ],
@@ -2073,7 +2049,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "SMU美保関",
       "group_codes": [
         "SMU"
       ],
@@ -2095,7 +2070,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "SZW滝浜",
       "group_codes": [
         "SZW"
       ],
@@ -2117,7 +2091,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "TMK-苫小牧幌内川",
       "group_codes": [
         "TMK"
       ],
@@ -2139,7 +2112,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "TSD冠着橋",
       "group_codes": [
         "TSD"
       ],
@@ -2161,7 +2133,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "TSD大明神沢",
       "group_codes": [
         "TSD"
       ],
@@ -2183,7 +2154,6 @@
       "sample_set": "DK25907",
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
-      "locality_label": "TSD菅平湿原",
       "group_codes": [
         "TSD"
       ],

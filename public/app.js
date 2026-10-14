@@ -8,10 +8,10 @@ function lookup(mapping,key){return Object.prototype.hasOwnProperty.call(mapping
 const columns = {
  runs:[["run_id","run"],["notified_date","通知日"],["sample_sets","試料群"],["reported_claident_date","Claident記録日"],["processing_state","処理結果"],["quality_review","品質評価"],["db_registration","DB登録"],["scientific_release","科学データ公開"]],
  sample_sets:[["run_id","run"],["sample_set","試料群"],["group_codes","グループ"],["reported_claident_date","試料群Claident記録日"],["delivered_samples","照合済み試料ライブラリ数"],["delivered_controls","照合済み対照ライブラリ数"],["processing_state","試料群全体の結果"],["flags","要確認"]],
- localities:[["run_id","run"],["sample_set","試料群"],["delivery_id","納品"],["marker","マーカー"],["group_codes","グループ"],["locality_label","地点ラベル"],["delivered_samples","試料ライブラリ数"],["processed_samples","結果確認済みライブラリ数"],["missing_samples","欠損ライブラリ数"],["processing_state","この地点・マーカーの試料結果"],["missing_name_codes","名称内コードなし"]],
+ localities:[["run_id","run"],["sample_set","試料群"],["delivery_id","納品"],["marker","マーカー"],["group_codes","グループ"],["delivered_samples","試料ライブラリ数"],["processed_samples","結果確認済みライブラリ数"],["missing_samples","欠損ライブラリ数"],["processing_state","対象試料の処理結果"],["missing_name_codes","名称内コードなし"]],
  deliveries:[["run_id","run"],["sample_set","試料群"],["delivery_id","納品"],["marker","マーカー"],["delivered_samples","試料ライブラリ数"],["processed_samples","結果確認済み試料数"],["missing_samples","欠損試料数"],["delivered_controls","対照ライブラリ数"],["processed_controls","結果確認済み対照数"],["missing_controls","欠損対照数"],["processing_state","納品・マーカーのジョブと結果"]]
 };
-const names = {runs:"run別",sample_sets:"試料群別",localities:"地点別（照合済み納品分）",deliveries:"納品・対照別（照合済み納品分）"};
+const names = {runs:"run別",sample_sets:"試料群別",localities:"試料内訳（照合済み納品分）",deliveries:"納品・対照別（照合済み納品分）"};
 const downloads = {runs:"runs.csv",sample_sets:"sample_sets.csv",localities:"localities.csv"};
 let current = "runs";
 function node(tag,text){const el=document.createElement(tag);el.textContent=text;return el;}

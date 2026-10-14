@@ -20,7 +20,7 @@ function time(value){return new Date(value).toLocaleString("ja-JP",{timeZone:"As
 document.getElementById("timestamps").textContent="情報基準: "+time(data.data_cutoff)+" · 表の生成: "+time(data.generated_at)+" · 版: "+data.data_version;
 document.getElementById("timestamps").textContent+=" · 進捗原表の更新: "+(data.sheet_modified_at?time(data.sheet_modified_at):"未確認")+" · 原表の取得: "+(data.sheet_acquired_at?time(data.sheet_acquired_at):"未確認");
 const age=Math.max(0,Math.floor((Date.now()-Date.parse(data.data_cutoff))/86400000));
-document.getElementById("freshness").textContent="自動更新は準備中です。提供記録の基準時刻から "+age+" 日経過しています。更新が未反映の場合があります。基準時刻と表の生成時刻を分けて表示しています。";
+document.getElementById("freshness").textContent="自動更新は準備中です。情報基準から "+age+" 日経過しています。";
 for(const run of data.runs){const o=node("option",run.run_id);o.value=run.run_id;document.getElementById("run").append(o);}
 const codes=[...new Set([...data.sample_sets,...data.localities].flatMap(x=>x.group_codes))].sort();
 for(const code of codes){const o=node("option",code);o.value=code;document.getElementById("group").append(o);}

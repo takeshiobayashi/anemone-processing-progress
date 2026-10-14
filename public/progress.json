@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "data_version": "a9ec4f64fb1db00a",
-  "generated_at": "2026-10-14T04:00:42.207Z",
+  "data_version": "c721cf1886e32084",
+  "generated_at": "2026-10-14T08:45:59.048Z",
   "data_cutoff": "2026-10-10T22:55:03.000Z",
   "automation_state": "offline_candidate",
   "code_version": "9dcde3125fbe576b",
@@ -2089,7 +2089,7 @@
       "delivery_id": "DK25907-02",
       "marker": "MiFish",
       "sample_set": "DK25907",
-      "checked_at": "2026-10-14T04:00:42.157Z",
+      "checked_at": "2026-10-14T08:45:59.001Z",
       "kind": "file_presence_only",
       "expected_samples": 285,
       "expected_controls": 41,

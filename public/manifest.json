@@ -1,13 +1,13 @@
 {
-  "schema_version": 1,
-  "data_version": "4b3205d33ea6463d",
+  "schema_version": 2,
+  "data_version": "11f66c7c43e50f8a",
   "files": {
-    "app.js": "16b0cb4771ac1dfac0a9f0ff65e3aaa9f52b89a2f6ae4afa34653c554c62d42e",
-    "index.html": "228bca3379213d015194025f232e11e76076e72377ec3746b7dab6bd079c110e",
-    "localities.csv": "b41a5afe896c567e8eff25fdef2b6c3378f2783153f7d6a92b8608a13f2d99f4",
-    "progress.json": "50b27213b25c909d7715702ac13a5e2e1dd76a1cae2bee6fad5f8694921e3094",
-    "runs.csv": "3a82f189d8fe980366285490c5ab4a56736c7ef9953a8e859b5f9e7efc4dd25b",
-    "sample_sets.csv": "10bd49c2f12866972c41b51766d3f718b99d7d01ec917de249d3b5eb026d7012",
-    "style.css": "b4aa7827d78d20eaa3b5528f86323675c8aa4e8066e5b1a3096110682503d772"
+    "app.js": "07837c26b554a2b2745aa64ab36203f2745b3bc82fe565363a31d3c345c036e7",
+    "index.html": "8cc453882ca0fc1032e99cf34bdef0bc2284e5373185ccf429491161586a22a2",
+    "localities.csv": "a77fdaf72c325aaa060e4b58260d75c211086166db22077edeca563edba002fd",
+    "progress.json": "f81646278ac8194bc76b596e2df51eb930c535f64fb651198cb58bad206cb442",
+    "runs.csv": "fe3ded18cd5ba4c1b83cd60036d7bbe0d53981515a28d2300a4c1ab2d6c1914d",
+    "sample_sets.csv": "e98f1bad1fb5a408d850a5a319e52829a480899b8d22a8d12fb2059dfa0186ce",
+    "style.css": "507623b73b14fba7a49e6c3fb9b724850335a2de82b9dd68d94ed5a97d00819e"
   }
 }

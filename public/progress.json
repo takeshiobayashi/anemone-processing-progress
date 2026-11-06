@@ -1,14 +1,48 @@
 {
   "schema_version": 3,
-  "data_version": "c721cf1886e32084",
-  "generated_at": "2026-10-14T08:45:59.048Z",
-  "data_cutoff": "2026-10-10T22:55:03.000Z",
+  "data_version": "b816e43a79159917",
+  "generated_at": "2026-11-06T12:04:04.584Z",
+  "data_cutoff": "2026-11-06T11:59:33.000Z",
   "automation_state": "offline_candidate",
   "code_version": "9dcde3125fbe576b",
   "runs": [
     {
+      "run_id": "2026-run-09",
+      "sample_sets": [
+        "DK26907",
+        "DK26909"
+      ],
+      "group_codes": [],
+      "processing_state": "unverified",
+      "processed_samples": null,
+      "missing_samples": null,
+      "processed_controls": null,
+      "missing_controls": null,
+      "quality_review": "unverified",
+      "db_registration": "unverified",
+      "scientific_release": "unverified"
+    },
+    {
+      "run_id": "2026-run-08",
+      "sample_sets": [
+        "DK26906",
+        "DK26911"
+      ],
+      "group_codes": [],
+      "processing_state": "unverified",
+      "processed_samples": null,
+      "missing_samples": null,
+      "processed_controls": null,
+      "missing_controls": null,
+      "quality_review": "unverified",
+      "db_registration": "unverified",
+      "scientific_release": "unverified"
+    },
+    {
       "run_id": "2026-run-06",
-      "sample_sets": [],
+      "sample_sets": [
+        "DK26908"
+      ],
       "group_codes": [],
       "processing_state": "unverified",
       "processed_samples": null,
@@ -466,6 +500,78 @@
     }
   ],
   "sample_sets": [
+    {
+      "run_id": "2026-run-09",
+      "sample_set": "DK26907",
+      "group_codes": [],
+      "flags": [],
+      "matched_deliveries": 0,
+      "delivered_samples": null,
+      "delivered_controls": null,
+      "metadata_match": "unverified",
+      "processing_state": "unverified",
+      "processed_samples": null,
+      "missing_samples": null,
+      "processed_controls": null,
+      "missing_controls": null,
+      "quality_review": "unverified",
+      "db_registration": "unverified",
+      "scientific_release": "unverified"
+    },
+    {
+      "run_id": "2026-run-09",
+      "sample_set": "DK26909",
+      "group_codes": [],
+      "flags": [],
+      "matched_deliveries": 0,
+      "delivered_samples": null,
+      "delivered_controls": null,
+      "metadata_match": "unverified",
+      "processing_state": "unverified",
+      "processed_samples": null,
+      "missing_samples": null,
+      "processed_controls": null,
+      "missing_controls": null,
+      "quality_review": "unverified",
+      "db_registration": "unverified",
+      "scientific_release": "unverified"
+    },
+    {
+      "run_id": "2026-run-08",
+      "sample_set": "DK26906",
+      "group_codes": [],
+      "flags": [],
+      "matched_deliveries": 0,
+      "delivered_samples": null,
+      "delivered_controls": null,
+      "metadata_match": "unverified",
+      "processing_state": "unverified",
+      "processed_samples": null,
+      "missing_samples": null,
+      "processed_controls": null,
+      "missing_controls": null,
+      "quality_review": "unverified",
+      "db_registration": "unverified",
+      "scientific_release": "unverified"
+    },
+    {
+      "run_id": "2026-run-08",
+      "sample_set": "DK26911",
+      "group_codes": [],
+      "flags": [],
+      "matched_deliveries": 0,
+      "delivered_samples": null,
+      "delivered_controls": null,
+      "metadata_match": "unverified",
+      "processing_state": "unverified",
+      "processed_samples": null,
+      "missing_samples": null,
+      "processed_controls": null,
+      "missing_controls": null,
+      "quality_review": "unverified",
+      "db_registration": "unverified",
+      "scientific_release": "unverified"
+    },
     {
       "run_id": "2026-run-06",
       "sample_set": "DK26908",
@@ -2076,11 +2182,6 @@
       "run_id": "2025-run-03",
       "sample_set": "DK25901",
       "kind": "repeated_group_code"
-    },
-    {
-      "run_id": "2026-run-06",
-      "sample_set": "DK26908",
-      "kind": "detail_sample_set_missing_overview"
     }
   ],
   "file_observations": [

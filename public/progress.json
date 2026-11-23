@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "data_version": "b816e43a79159917",
-  "generated_at": "2026-11-06T12:04:04.584Z",
+  "data_version": "b40395a1521d0a62",
+  "generated_at": "2026-11-23T10:18:12.263Z",
   "data_cutoff": "2026-11-06T11:59:33.000Z",
   "automation_state": "offline_candidate",
-  "code_version": "9dcde3125fbe576b",
+  "code_version": "05cae12f48f08f18",
   "runs": [
     {
       "run_id": "2026-run-09",
@@ -13,7 +13,7 @@
         "DK26909"
       ],
       "group_codes": [],
-      "processing_state": "unverified",
+      "processing_state": "input_preparation",
       "processed_samples": null,
       "missing_samples": null,
       "processed_controls": null,
@@ -86,12 +86,12 @@
         "DK26904"
       ],
       "group_codes": [],
-      "processing_state": "unverified",
+      "processing_state": "technical_complete",
       "processed_samples": null,
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
+      "quality_review": "pending",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },

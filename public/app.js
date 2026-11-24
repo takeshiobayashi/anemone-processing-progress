@@ -16,7 +16,7 @@ const columnMeanings = {run_id:"Sequencing-run ID",sample_sets:"Associated sampl
 const runInventory = Array.isArray(data.run_file_observations);
 const runFileRecords = new Map((data.run_file_observations || []).map(row => [row.run_id, row]));
 const fileTimes = [...(data.file_observations || []), ...(data.run_file_observations || [])].map(row => row.checked_at);
-const fileColumns = [["files_demux_samples","Dmx."],["files_filtered_samples","Filt."],["files_demux_controls","C.dmx"],["files_filtered_controls","C.filt"]];
+const fileColumns = [["files_demux_samples","S.dmx"],["files_filtered_samples","S.filt"],["files_demux_controls","C.dmx"],["files_filtered_controls","C.filt"]];
 if(data.file_observations || runInventory){for(const view of Object.keys(columns)){columns[view].push(...fileColumns.filter(([key])=>view!=="localities"||!key.endsWith("controls")));}for(const [key] of fileColumns){countFields.add(key);columnMeanings[key]=(key.endsWith("controls")?"Control":"Sample")+" libraries with files present at nonzero byte size: "+(key.includes("demux")?"forward and reverse demultiplexed files":"filtered files")+"; checked MiFish run or delivery scope, fixed filenames; 0 means none found there";}}
 function viewRow(view,original,number){
  const row={...original};

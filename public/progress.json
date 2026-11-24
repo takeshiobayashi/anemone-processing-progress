@@ -1,10 +1,10 @@
 {
   "schema_version": 4,
-  "data_version": "ce7eadb870b60fd0",
-  "generated_at": "2026-11-24T09:51:59.037Z",
+  "data_version": "2f01f98901483fc8",
+  "generated_at": "2026-11-24T11:46:20.766Z",
   "data_cutoff": "2026-11-06T11:59:33.000Z",
   "automation_state": "offline_candidate",
-  "code_version": "2c04fa639605891e",
+  "code_version": "29f1c306200f2ce4",
   "runs": [
     {
       "run_id": "2026-run-09",

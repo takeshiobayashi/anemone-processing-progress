@@ -1,49 +1,49 @@
-﻿run_id,sample_set,group_codes,flags,matched_deliveries,delivered_samples,delivered_controls,metadata_match,processing_state,processed_samples,missing_samples,processed_controls,missing_controls,db_registration,scientific_release,files_demux_samples,files_demux_controls,files_filtered_samples,files_filtered_controls
-2026-run-09,DK26907,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-09,DK26909,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-08,DK26906,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-08,DK26911,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-06,DK26908,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-03,DK26903,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-03,DK26904,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-02,DK23088-559,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-01,DK25927,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-01,DK25932,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2026-run-01,DK26901,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-14,DK23088,AKS / WAK,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-14,DK25907,AKU / HUF,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-13,DK25931,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-12,DK25921,AKS / AKU / AMS / ASU / HUA / HUF / KUE / KUM / NML / NTK / RUI / SBC / SHR / SMD / SMU / SZW / TMK / TSD / UMI / URF / UTF / UTO,corrected_batch_id,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-12,DK23088,AKS / AKU / AMS / ARF / ASU / FRA / HUA / HUF / HYM / KRF / KUM / NIE / NTK / OCF / SAD / SBA / SBC / SHR / SMB / SMD / SMU / SZW / TES / TMK / UMI / URF / UTF / UTO / WAK,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-11,DK25925,AUS / BGD / KOR / NGA / NGL / SEN / THA / USA,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-11,DK25907,AKS / AKU / AMS / ASU / HUA / HUF / KUE / KUM / NML / RUI / SBC / SMD / SMU / SZW / TMK / TSD,,1,285,41,listed_deliveries_matched,unverified,,,,,unverified,unverified,285,41,285,41
-2025-run-11,DK25912,KRF / UMI,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-11,DK25917,OCF,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-10,DK25915,EWV / KUE / KUM / MUN / SZW,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-10,DK25909,FNK / HRT / KDN / KIZ / KMI / KSN / MYK / OFN / OGT / OKR / ONG / OPP / OTC / RIS / SMU / TUN / YMD / YSH,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-10,DK23088,OKI,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-10,DK25921,NRP / OKI,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-10,DK25924,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-10,DK25926,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-09,DK25920,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-09,DK25922,THD,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-08,DK23088-05,AMS / KUM / OCF / SHR / TSD / WAK,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-08,DK25906,SZW,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-08,DK25907-01,NRP / OKI,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-08,DK25912-01,NRP,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-08,DK25917-01,NRP,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-07,CR25008,NSU / NYI / STE / YSR,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-07,DK25913,THD,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-07,DK25919,DOI,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-06,DK25911-2,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-06,DK25904,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-06,DK25916,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-04,DK25902,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-04,CR25008,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-04,DK25911,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-03,DK24923,HIR / HUN / KAM / KES / KOI / MIY / MON / OGA / OKI / ONA / OOF / OOT / OPP / RYI / SAM / TOU / YAM / YOS,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-03,DK25901,ARF / TSD / URF / WAK,malformed_group_code / repeated_group_code,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-03,DK23088-03,AMS / ASU / HUA / KUE / NML,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-02,DK24914,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-02,DK24922,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
-2025-run-02,DK24921,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,
+﻿run_id,sample_set,group_codes,flags,matched_deliveries,delivered_samples,delivered_controls,metadata_match,processing_state,processed_samples,missing_samples,processed_controls,missing_controls,db_registration,scientific_release,indexed_samples,indexed_controls,files_demux_samples,files_filtered_samples,files_demux_controls,files_filtered_controls
+2026-run-09,DK26907,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
+2026-run-09,DK26909,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
+2026-run-08,DK26906,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
+2026-run-08,DK26911,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
+2026-run-06,DK26908,,,1,5,3,listed_deliveries_matched,unverified,,,,,unverified,unverified,5,3,5,5,2,1
+2026-run-03,DK26903,,sampling_group_from_matched_record,1,141,75,listed_deliveries_matched,unverified,,,,,unverified,unverified,141,75,141,141,75,75
+2026-run-03,DK26904,,,1,26,8,listed_deliveries_matched,unverified,,,,,unverified,unverified,26,8,26,26,8,8
+2026-run-02,DK23088-559,,,1,1,0,listed_deliveries_matched,unverified,,,,,unverified,unverified,1,0,1,1,0,0
+2026-run-01,DK25927,,,1,54,23,listed_deliveries_matched,unverified,,,,,unverified,unverified,54,23,54,54,23,23
+2026-run-01,DK25932,,,1,5,5,listed_deliveries_matched,unverified,,,,,unverified,unverified,5,5,5,5,4,3
+2026-run-01,DK26901,,,1,36,15,listed_deliveries_matched,unverified,,,,,unverified,unverified,36,15,36,36,14,12
+2025-run-14,DK23088,AKS / WAK,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
+2025-run-14,DK25907,AKU / HUF,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
+2025-run-13,DK25931,,,0,,,unverified,unverified,,,,,unverified,unverified,8,3,8,8,3,3
+2025-run-12,DK25921,AKS / AKU / AMS / ASU / HUA / HUF / KUE / KUM / NML / NTK / RUI / SBC / SHR / SMD / SMU / SZW / TMK / TSD / UMI / URF / UTF / UTO,corrected_batch_id,0,,,unverified,unverified,,,,,unverified,unverified,282,110,282,282,110,109
+2025-run-12,DK23088,AKS / AKU / AMS / ARF / ASU / FRA / HUA / HUF / HYM / KRF / KUM / NIE / NTK / OCF / SAD / SBA / SBC / SHR / SMB / SMD / SMU / SZW / TES / TMK / UMI / URF / UTF / UTO / WAK,,0,,,unverified,unverified,,,,,unverified,unverified,361,106,361,361,106,94
+2025-run-11,DK25925,AUS / BGD / KOR / NGA / NGL / SEN / THA / USA,,0,,,unverified,unverified,,,,,unverified,unverified,50,26,50,50,26,26
+2025-run-11,DK25907,AKS / AKU / AMS / ASU / HUA / HUF / KUE / KUM / NML / RUI / SBC / SMD / SMU / SZW / TMK / TSD,,1,285,41,listed_deliveries_matched,unverified,,,,,unverified,unverified,285,127,285,285,127,119
+2025-run-11,DK25912,KRF / UMI,,0,,,unverified,unverified,,,,,unverified,unverified,19,9,19,19,9,9
+2025-run-11,DK25917,OCF,,0,,,unverified,unverified,,,,,unverified,unverified,48,14,48,48,13,10
+2025-run-10,DK25915,EWV / KUE / KUM / MUN / SZW,,0,,,unverified,unverified,,,,,unverified,unverified,140,41,140,140,41,40
+2025-run-10,DK25909,FNK / HRT / KDN / KIZ / KMI / KSN / MYK / OFN / OGT / OKR / ONG / OPP / OTC / RIS / SMU / TUN / YMD / YSH,,0,,,unverified,unverified,,,,,unverified,unverified,54,27,54,54,27,27
+2025-run-10,DK23088,OKI,,0,,,unverified,unverified,,,,,unverified,unverified,4,2,4,4,2,2
+2025-run-10,DK25921,NRP / OKI,,0,,,unverified,unverified,,,,,unverified,unverified,12,7,12,12,7,7
+2025-run-10,DK25924,,,0,,,unverified,unverified,,,,,unverified,unverified,7,5,7,7,4,3
+2025-run-10,DK25926,,,0,,,unverified,unverified,,,,,unverified,unverified,3,3,3,3,3,1
+2025-run-09,DK25920,,,0,,,unverified,unverified,,,,,unverified,unverified,13,3,5,5,3,3
+2025-run-09,DK25922,THD,,0,,,unverified,unverified,,,,,unverified,unverified,48,6,12,12,6,4
+2025-run-08,DK23088-05,AMS / KUM / OCF / SHR / TSD / WAK,,0,,,unverified,unverified,,,,,unverified,unverified,77,14,77,77,13,13
+2025-run-08,DK25906,SZW,,0,,,unverified,unverified,,,,,unverified,unverified,90,38,90,90,38,37
+2025-run-08,DK25907-01,NRP / OKI,,0,,,unverified,unverified,,,,,unverified,unverified,14,6,14,14,6,6
+2025-run-08,DK25912-01,NRP,,0,,,unverified,unverified,,,,,unverified,unverified,8,5,8,8,5,5
+2025-run-08,DK25917-01,NRP,,0,,,unverified,unverified,,,,,unverified,unverified,1,3,1,1,3,2
+2025-run-07,CR25008,NSU / NYI / STE / YSR,,0,,,unverified,unverified,,,,,unverified,unverified,60,0,0,0,0,0
+2025-run-07,DK25913,THD,,0,,,unverified,unverified,,,,,unverified,unverified,27,3,7,7,2,1
+2025-run-07,DK25919,DOI,,0,,,unverified,unverified,,,,,unverified,unverified,22,3,15,14,2,1
+2025-run-06,DK25911-2,,,0,,,unverified,unverified,,,,,unverified,unverified,104,19,104,104,19,19
+2025-run-06,DK25904,,,0,,,unverified,unverified,,,,,unverified,unverified,55,31,55,55,30,30
+2025-run-06,DK25916,,,0,,,unverified,unverified,,,,,unverified,unverified,12,3,11,10,2,2
+2025-run-04,DK25902,,,0,,,unverified,unverified,,,,,unverified,unverified,40,5,11,11,5,5
+2025-run-04,CR25008,,,0,,,unverified,unverified,,,,,unverified,unverified,16,0,0,0,0,0
+2025-run-04,DK25911,,,0,,,unverified,unverified,,,,,unverified,unverified,4,4,4,4,4,3
+2025-run-03,DK24923,HIR / HUN / KAM / KES / KOI / MIY / MON / OGA / OKI / ONA / OOF / OOT / OPP / RYI / SAM / TOU / YAM / YOS,,0,,,unverified,unverified,,,,,unverified,unverified,55,27,55,55,27,26
+2025-run-03,DK25901,ARF / TSD / URF / WAK,malformed_group_code / repeated_group_code,0,,,unverified,unverified,,,,,unverified,unverified,23,12,23,23,12,12
+2025-run-03,DK23088-03,AMS / ASU / HUA / KUE / NML,,0,,,unverified,unverified,,,,,unverified,unverified,74,27,74,74,26,24
+2025-run-02,DK24914,,,0,,,unverified,unverified,,,,,unverified,unverified,2,1,2,2,0,0
+2025-run-02,DK24922,,,0,,,unverified,unverified,,,,,unverified,unverified,162,79,162,162,77,69
+2025-run-02,DK24921,,,0,,,unverified,unverified,,,,,unverified,unverified,6,7,6,6,6,5

@@ -2,7 +2,7 @@
 const data = JSON.parse(document.getElementById("progress-data").textContent);
 const labels = {unverified:"NV",running:"RUN",complete:"OK",input_preparation:"Input preparation",technical_complete:"Technical processing complete",pending:"Pending",partial:"PART",failed:"FAIL",matched:"MATCH",listed_deliveries_matched:"SEL"};
 const stateMeanings = {unverified:"Not verified",running:"Running, supported by execution records",complete:"All expected results verified in records; not species-identification accuracy",input_preparation:"Inputs are being prepared for analysis",technical_complete:"Technical processing and internal handoff verified",pending:"Scientific quality review pending",partial:"Some expected results missing in records",failed:"Job failed in records",matched:"Metadata matched",listed_deliveries_matched:"Only listed deliveries matched"};
-const flags = {corrected_batch_id:"Sample-set ID corrected from checked evidence",malformed_group_code:"Check joined or malformed group codes",repeated_group_code:"Repeated group code",overview_sample_set_missing_detail:"Listed in run overview; absent from sample-set details",detail_sample_set_missing_overview:"Listed in sample-set details; absent from run overview"};
+const flags = {corrected_batch_id:"Sample-set ID corrected from checked evidence",malformed_group_code:"Check joined or malformed group codes",repeated_group_code:"Repeated group code",overview_sample_set_missing_detail:"Listed in run overview; absent from sample-set details",detail_sample_set_missing_overview:"Listed in sample-set details; absent from run overview",sampling_group_from_matched_record:"Site group shown from matched sampling records; catalogue Groups are unchanged"};
 const stateFields = new Set(["processing_state","metadata_match","db_registration","scientific_release"]);
 const countFields = new Set(["delivered_samples","delivered_controls","processed_samples","processed_controls","missing_samples","missing_controls"]);
 function lookup(mapping,key){return Object.prototype.hasOwnProperty.call(mapping,key)?mapping[key]:String(key);}
@@ -13,13 +13,40 @@ const columns = {
  deliveries:[["run_id","Run"],["sample_set","Set"],["delivery_id","Delivery"],["marker","Marker"],["delivered_samples","Samp."],["processed_samples","Done"],["missing_samples","Miss."],["delivered_controls","Ctrl."],["processed_controls","C.done"],["missing_controls","C.miss"],["processing_state","State"]]
 };
 const columnMeanings = {run_id:"Sequencing-run ID",sample_sets:"Associated sample sets",sample_set:"Sample-set ID",group_codes:"Three-letter groups; not necessarily individual sites",delivery_id:"Selected delivery batch",marker:"Assay marker",delivered_samples:"Sample libraries in matched deliveries, per marker",delivered_controls:"Control libraries in matched deliveries, per marker",processed_samples:"Sample-library results verified by execution records",missing_samples:"Expected sample-library results missing after finalized processing",processed_controls:"Control-library results verified by execution records",missing_controls:"Expected control-library results missing after finalized processing",processing_state:"Status for the scope of this view",db_registration:"ANEMONE DB registration",scientific_release:"Scientific dataset release",flags:"Source consistency notes",missing_name_codes:"Sample-library names without a recognized group code"};
+const setInventory = Array.isArray(data.sample_set_file_observations);
+const setKey = value => JSON.stringify([value.run_id,value.sample_set]);
+const indexedSets = new Map((data.sample_set_file_observations || []).map(row => [setKey(row),row]));
 const runInventory = Array.isArray(data.run_file_observations);
 const runFileRecords = new Map((data.run_file_observations || []).map(row => [row.run_id, row]));
 const fileTimes = [...(data.file_observations || []), ...(data.run_file_observations || [])].map(row => row.checked_at);
+if (setInventory) {
+ columns.localities = columns.localities.map(([key,label]) => key==="group_codes" ? [key,"Site group"] : [key,label]);
+ columns.deliveries.splice(5,0,["breakdown_samples","In breakdown"]);
+ columns.deliveries.push(["result_checked_at","Results checked"]);
+ countFields.add("breakdown_samples");
+ columnMeanings.breakdown_samples = "Sample libraries represented in the sampling-site breakdown";
+ columnMeanings.result_checked_at = "Separate verification time for the finalized result roster";
+ columns.sample_sets = columns.sample_sets.map(([field,label]) => {
+  if (field === "delivered_samples") return ["indexed_samples","Idx. S"];
+  if (field === "delivered_controls") return ["indexed_controls","Idx. C"];
+  return [field,label];
+ });
+ for (const [field, kind] of [["indexed_samples","sample"],["indexed_controls","control"]]) {
+  countFields.add(field);
+  columnMeanings[field] = "Indexed " + kind + " libraries in the complete sample set (MiFish)";
+ }
+}
 const fileColumns = [["files_demux_samples","S.dmx"],["files_filtered_samples","S.filt"],["files_demux_controls","C.dmx"],["files_filtered_controls","C.filt"]];
-if(data.file_observations || runInventory){for(const view of Object.keys(columns)){columns[view].push(...fileColumns.filter(([key])=>view!=="localities"||!key.endsWith("controls")));}for(const [key] of fileColumns){countFields.add(key);columnMeanings[key]=(key.endsWith("controls")?"Control":"Sample")+" libraries with files present at nonzero byte size: "+(key.includes("demux")?"forward and reverse demultiplexed files":"filtered files")+"; checked MiFish run or delivery scope, fixed filenames; 0 means none found there";}}
+if(data.file_observations || runInventory){for(const view of Object.keys(columns)){columns[view].push(...fileColumns.filter(([key])=>view!=="localities"||!key.endsWith("controls")));}for(const [key] of fileColumns){countFields.add(key);columnMeanings[key]=(key.endsWith("controls")?"Control":"Sample")+" libraries with files present at nonzero byte size: "+(key.includes("demux")?"forward and reverse demultiplexed files":"filtered files")+"; verified MiFish run, sample-set or delivery scope, fixed filenames; 0 means none found there";}}
 function viewRow(view,original,number){
  const row={...original};
+ if(view==="localities"&&row.verified_site_group)row.group_codes=[row.verified_site_group];
+ if (view === "sample_sets" && setInventory) {
+  const inventory = indexedSets.get(setKey(row));
+  for (const field of ["indexed_samples","indexed_controls", ...fileColumns.map(([key])=>key)])
+   row[field] = inventory ? inventory[field] : null;
+  return row;
+ }
  if (view === "runs" && runInventory) {
   const inventory = runFileRecords.get(row.run_id);
   for (const [field] of fileColumns) row[field] = inventory ? inventory[field] : null;
@@ -42,14 +69,15 @@ function ageDays(value){return Math.max(0,Math.floor((Date.now()-Date.parse(valu
 const age=ageDays(data.data_cutoff);
 document.getElementById("freshness").textContent="Auto: pending · Meta age: "+age+" d"+(fileTimes.length?" · File age: "+Math.max(...fileTimes.map(ageDays))+" d":"");
 for(const run of data.runs){const o=node("option",run.run_id);o.value=run.run_id;document.getElementById("run").append(o);}
-const codes=[...new Set([...data.sample_sets,...data.localities].flatMap(x=>x.group_codes))].sort();
+const siteGroups = row => row.verified_site_group ? [row.verified_site_group] : row.group_codes;
+const codes=[...new Set([...data.sample_sets.flatMap(row=>row.group_codes),...data.localities.flatMap(siteGroups)])].sort();
 for(const code of codes){const o=node("option",code);o.value=code;document.getElementById("group").append(o);}
 document.getElementById("issue-count").textContent="("+data.issues.length+")";
 for(const issue of data.issues)document.getElementById("issues").append(node("li",issue.run_id+" / "+issue.sample_set+": "+lookup(flags,issue.kind)));
 function render(){
  const run=document.getElementById("run").value,group=document.getElementById("group").value,query=document.getElementById("search").value.trim().toLowerCase();
  const rows=data[current].map((row,index)=>viewRow(current,row,index+1)).filter(r=>{
-  const groups=r.group_codes||data.localities.filter(x=>x.run_id===r.run_id&&x.delivery_id===r.delivery_id&&x.marker===r.marker).flatMap(x=>x.group_codes);
+  const groups=r.group_codes||data.localities.filter(x=>x.run_id===r.run_id&&x.delivery_id===r.delivery_id&&x.marker===r.marker).flatMap(siteGroups);
   const searchable=columns[current].map(([key])=>display(key,r[key])).join(" ")+" "+Object.values(r).join(" ");
   return (!run||r.run_id===run)&&(!group||groups.includes(group))&&(!query||searchable.toLowerCase().includes(query));
  });

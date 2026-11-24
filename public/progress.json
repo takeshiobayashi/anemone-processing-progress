@@ -1,10 +1,10 @@
 {
-  "schema_version": 3,
-  "data_version": "b40395a1521d0a62",
-  "generated_at": "2026-11-23T10:18:12.263Z",
+  "schema_version": 4,
+  "data_version": "ce7eadb870b60fd0",
+  "generated_at": "2026-11-24T09:51:59.037Z",
   "data_cutoff": "2026-11-06T11:59:33.000Z",
   "automation_state": "offline_candidate",
-  "code_version": "05cae12f48f08f18",
+  "code_version": "2c04fa639605891e",
   "runs": [
     {
       "run_id": "2026-run-09",
@@ -18,7 +18,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -34,7 +33,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -49,7 +47,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -62,7 +59,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -75,7 +71,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -91,7 +86,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "pending",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -106,7 +100,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -123,7 +116,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -144,7 +136,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -159,7 +150,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -209,7 +199,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -255,7 +244,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -301,7 +289,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -319,7 +306,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -348,7 +334,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -372,7 +357,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -389,7 +373,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -402,7 +385,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -419,7 +401,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -464,7 +445,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -481,7 +461,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -494,7 +473,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     }
@@ -514,7 +492,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -532,7 +509,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -550,7 +526,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -568,7 +543,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -586,7 +560,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -604,7 +577,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -622,7 +594,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -640,7 +611,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -658,7 +628,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -676,7 +645,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -694,7 +662,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -715,7 +682,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -736,7 +702,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -754,7 +719,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -797,7 +761,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -845,7 +808,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -872,7 +834,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -907,7 +868,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -928,7 +888,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -948,7 +907,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -972,7 +930,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1009,7 +966,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1029,7 +985,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1050,7 +1005,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1068,7 +1022,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1086,7 +1039,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1104,7 +1056,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1124,7 +1075,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1149,7 +1099,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1169,7 +1118,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1190,7 +1138,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1210,7 +1157,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1230,7 +1176,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1253,7 +1198,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1273,7 +1217,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1293,7 +1236,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1311,7 +1253,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1329,7 +1270,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1347,7 +1287,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1365,7 +1304,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1383,7 +1321,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1401,7 +1338,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1438,7 +1374,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1464,7 +1399,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1488,7 +1422,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1506,7 +1439,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1524,7 +1456,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1542,7 +1473,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     }
@@ -1564,7 +1494,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1584,7 +1513,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1604,7 +1532,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1624,7 +1551,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1644,7 +1570,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1664,7 +1589,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1684,7 +1608,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1704,7 +1627,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1724,7 +1646,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1744,7 +1665,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1764,7 +1684,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1784,7 +1703,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1804,7 +1722,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1824,7 +1741,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1844,7 +1760,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1864,7 +1779,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1884,7 +1798,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1904,7 +1817,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1924,7 +1836,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1944,7 +1855,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1964,7 +1874,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -1984,7 +1893,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -2004,7 +1912,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -2024,7 +1931,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -2044,7 +1950,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -2064,7 +1969,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -2084,7 +1988,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -2104,7 +2007,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -2124,7 +2026,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     },
@@ -2144,7 +2045,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     }
@@ -2162,7 +2062,6 @@
       "missing_samples": null,
       "processed_controls": null,
       "missing_controls": null,
-      "quality_review": "unverified",
       "db_registration": "unverified",
       "scientific_release": "unverified"
     }
@@ -2359,6 +2258,215 @@
           "filtered": 1
         }
       ]
+    }
+  ],
+  "run_file_observations": [
+    {
+      "run_id": "2026-run-06",
+      "sample_sets": [
+        "DK26908"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 5,
+      "files_filtered_samples": 5,
+      "files_demux_controls": 2,
+      "files_filtered_controls": 1
+    },
+    {
+      "run_id": "2026-run-03",
+      "sample_sets": [
+        "DK26903",
+        "DK26904"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 167,
+      "files_filtered_samples": 167,
+      "files_demux_controls": 83,
+      "files_filtered_controls": 83
+    },
+    {
+      "run_id": "2026-run-02",
+      "sample_sets": [
+        "DK23088-559"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 1,
+      "files_filtered_samples": 1,
+      "files_demux_controls": 0,
+      "files_filtered_controls": 0
+    },
+    {
+      "run_id": "2026-run-01",
+      "sample_sets": [
+        "DK25927",
+        "DK25932",
+        "DK26901"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 95,
+      "files_filtered_samples": 95,
+      "files_demux_controls": 41,
+      "files_filtered_controls": 38
+    },
+    {
+      "run_id": "2025-run-13",
+      "sample_sets": [
+        "DK25931"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 8,
+      "files_filtered_samples": 8,
+      "files_demux_controls": 3,
+      "files_filtered_controls": 3
+    },
+    {
+      "run_id": "2025-run-12",
+      "sample_sets": [
+        "DK23088",
+        "DK25921"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 643,
+      "files_filtered_samples": 643,
+      "files_demux_controls": 216,
+      "files_filtered_controls": 203
+    },
+    {
+      "run_id": "2025-run-11",
+      "sample_sets": [
+        "DK25907",
+        "DK25912",
+        "DK25917",
+        "DK25925"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 402,
+      "files_filtered_samples": 402,
+      "files_demux_controls": 175,
+      "files_filtered_controls": 164
+    },
+    {
+      "run_id": "2025-run-10",
+      "sample_sets": [
+        "DK23088",
+        "DK25909",
+        "DK25915",
+        "DK25921",
+        "DK25924",
+        "DK25926"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 220,
+      "files_filtered_samples": 220,
+      "files_demux_controls": 84,
+      "files_filtered_controls": 80
+    },
+    {
+      "run_id": "2025-run-09",
+      "sample_sets": [
+        "DK25920",
+        "DK25922"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 17,
+      "files_filtered_samples": 17,
+      "files_demux_controls": 9,
+      "files_filtered_controls": 7
+    },
+    {
+      "run_id": "2025-run-08",
+      "sample_sets": [
+        "DK23088-05",
+        "DK25906",
+        "DK25907-01",
+        "DK25912-01",
+        "DK25917-01"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 190,
+      "files_filtered_samples": 190,
+      "files_demux_controls": 65,
+      "files_filtered_controls": 63
+    },
+    {
+      "run_id": "2025-run-07",
+      "sample_sets": [
+        "CR25008",
+        "DK25913",
+        "DK25919"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 22,
+      "files_filtered_samples": 21,
+      "files_demux_controls": 4,
+      "files_filtered_controls": 2
+    },
+    {
+      "run_id": "2025-run-06",
+      "sample_sets": [
+        "DK25904",
+        "DK25911-2",
+        "DK25916"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 170,
+      "files_filtered_samples": 169,
+      "files_demux_controls": 51,
+      "files_filtered_controls": 51
+    },
+    {
+      "run_id": "2025-run-04",
+      "sample_sets": [
+        "CR25008",
+        "DK25902",
+        "DK25911"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 15,
+      "files_filtered_samples": 15,
+      "files_demux_controls": 9,
+      "files_filtered_controls": 8
+    },
+    {
+      "run_id": "2025-run-03",
+      "sample_sets": [
+        "DK23088-03",
+        "DK24923",
+        "DK25901"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 152,
+      "files_filtered_samples": 152,
+      "files_demux_controls": 65,
+      "files_filtered_controls": 62
+    },
+    {
+      "run_id": "2025-run-02",
+      "sample_sets": [
+        "DK24914",
+        "DK24921",
+        "DK24922"
+      ],
+      "marker": "MiFish",
+      "checked_at": "2026-11-24T09:25:18.095Z",
+      "files_demux_samples": 170,
+      "files_filtered_samples": 170,
+      "files_demux_controls": 83,
+      "files_filtered_controls": 74
     }
   ]
 }

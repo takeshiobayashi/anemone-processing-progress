@@ -1,6 +1,6 @@
 ﻿run_id,sample_set,group_codes,flags,matched_deliveries,delivered_samples,delivered_controls,metadata_match,processing_state,processed_samples,missing_samples,processed_controls,missing_controls,db_registration,scientific_release,indexed_samples,indexed_controls,files_demux_samples,files_filtered_samples,files_demux_controls,files_filtered_controls
-2026-run-09,DK26907,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
-2026-run-09,DK26909,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
+2026-run-09,DK26907,,,0,,,unverified,unverified,,,,,unverified,unverified,156,53,156,156,45,38
+2026-run-09,DK26909,,,0,,,unverified,unverified,,,,,unverified,unverified,29,12,29,29,12,12
 2026-run-08,DK26906,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
 2026-run-08,DK26911,,,0,,,unverified,unverified,,,,,unverified,unverified,,,,,,
 2026-run-06,DK26908,,,1,5,3,listed_deliveries_matched,unverified,,,,,unverified,unverified,5,3,5,5,2,1

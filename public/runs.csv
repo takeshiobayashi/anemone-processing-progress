@@ -1,5 +1,5 @@
 ﻿run_id,sample_sets,group_codes,processing_state,processed_samples,missing_samples,processed_controls,missing_controls,db_registration,scientific_release,files_demux_samples,files_demux_controls,files_filtered_samples,files_filtered_controls
-2026-run-09,DK26907 / DK26909,,input_preparation,,,,,unverified,unverified,,,,
+2026-run-09,DK26907 / DK26909,,unverified,,,,,unverified,unverified,185,57,185,50
 2026-run-08,DK26906 / DK26911,,unverified,,,,,unverified,unverified,,,,
 2026-run-06,DK26908,,unverified,,,,,unverified,unverified,5,2,5,1
 2026-run-05,,,unverified,,,,,unverified,unverified,,,,

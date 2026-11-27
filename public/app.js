@@ -1,7 +1,19 @@
 "use strict";
 const data = JSON.parse(document.getElementById("progress-data").textContent);
 const labels = {unverified:"NV",running:"RUN",complete:"OK",input_preparation:"Input preparation",technical_complete:"Technical processing complete",pending:"Pending",partial:"PART",failed:"FAIL",matched:"MATCH",listed_deliveries_matched:"SEL"};
+Object.assign(labels, {
+ whole_set_complete: "Whole MiFish set · all results",
+ whole_set_missing: "Whole MiFish set · results missing",
+ selected_complete: "MiFish deliveries only · all results",
+ selected_missing: "MiFish deliveries only · results missing"
+});
 const stateMeanings = {unverified:"Not verified",running:"Running, supported by execution records",complete:"All expected results verified in records; not species-identification accuracy",input_preparation:"Inputs are being prepared for analysis",technical_complete:"Technical processing and internal handoff verified",pending:"Scientific quality review pending",partial:"Some expected results missing in records",failed:"Job failed in records",matched:"Metadata matched",listed_deliveries_matched:"Only listed deliveries matched"};
+Object.assign(stateMeanings, {
+ whole_set_complete: "Every expected sample and control in the verified MiFish set has a result.",
+ whole_set_missing: "The entire MiFish set was checked. At least one expected sample or control has no result.",
+ selected_complete: "Every sample and control in the checked MiFish deliveries has a result. Coverage of the entire set has not been established.",
+ selected_missing: "At least one sample or control in the checked MiFish deliveries has no result. Coverage of the entire set has not been established."
+});
 const flags = {corrected_batch_id:"Sample-set ID corrected from checked evidence",malformed_group_code:"Check joined or malformed group codes",repeated_group_code:"Repeated group code",overview_sample_set_missing_detail:"Listed in run overview; absent from sample-set details",detail_sample_set_missing_overview:"Listed in sample-set details; absent from run overview",sampling_group_from_matched_record:"Site group shown from matched sampling records; catalogue Groups are unchanged"};
 const stateFields = new Set(["processing_state","metadata_match","db_registration","scientific_release"]);
 const countFields = new Set(["delivered_samples","delivered_controls","processed_samples","processed_controls","missing_samples","missing_controls"]);
